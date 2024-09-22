@@ -56,7 +56,13 @@ temp/: keep some files
 Used by Tomcat to store temporary files generated at runtime, such as file uploads or temporary data required during processing.
 ######################################################################################################################################
 
-
-
+############  TOMCAT SERVER INSTALLATION  #####################
+JDK for maven
+JRE  for tomacat   JDK all so work importent JRE
+Please see the README file for packaging information. It explains what every distribution contains.   # this is whitch java can check
+Tomcat 9.0 requires Java 8 or later. Read the RELEASE-NOTES and the RUNNING.txt file in the distribution for more details.
+##################
+cookies : laptop detaile clinet broser, operetin system that all detailes 
+          cookies checkbox are there coockies imfome to all local detaiel to servers
 
 
