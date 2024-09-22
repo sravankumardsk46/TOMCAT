@@ -81,9 +81,29 @@ vi tomcat-users.xml
 end lo
 <user username="sravankumar" password="sravan" roles="manager-gui,admin-gui" />
 :wq!
-sravankumar
-sravan
-
+Dashbord : manager
+username sravankumar
+poss sravan
+dashbord hostmanager not work now go
+cd webapps
+ls
+cd host-manager
+ls
+cd META-INF
+VI CONTEX.XML
+<!--
+  <valvewndjsnsjncjsncsjncjncjcjan
+-->
+:wq!
+go to dashbord check
+## manager-gui : sever status manager app
+ ### admin-gui : host manager
+tasck1
+user1
+manger-gui
+user2
+admin-gui
+#NOTE same port nat
 
 
 
