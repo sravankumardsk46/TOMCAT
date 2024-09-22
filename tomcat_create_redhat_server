@@ -45,6 +45,60 @@ pwd   ## /opt/apache-tomcat-9.0.59/bin   ## copy past down list
 ln -s /opt/apache-tomcat-9.0.59/bin/startup.sh /usr/bin/starttomcat
 ln -s /opt/apache-tomcat-9.0.59/bin/startup.sh /usr/bin/stoptomcat
 
+cd ~
+starttomcat
+ps -ef | grep tomcat
+stoptomcat
+ps -ef | grep tomcat   ## not giving pocees id
+starttomcat
+pwd   ## /opt/apache-tomcat-9.0.59/bin 
+cd logs
+ls  ## managers show u
+cd webapp  # show u maneger
+copy public ip 
+port give 8080
+copy ip past 
+go to doshbord manager not found
+go to server
+cd webapp
+cd manager
+ls
+CD META-INF
+ls
+vi contex.xml
+<!--
+  <valvewndjsnsjncjsncsjncjncjcjan
+-->
+:wq!
+ctrl +shift+delete
+lsthour  ok
+refresh dashbord
+go to manager app
+it ask credentiol
+cd conf
+ls 
+vi tomcat-users.xml
+end lo
+<user username="sravankumar" password="sravan" roles="manager-gui,admin-gui" />
+:wq!
+sravankumar
+sravan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
