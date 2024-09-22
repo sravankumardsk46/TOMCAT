@@ -14,6 +14,47 @@ go to
 https://tomcat.apache.org/download-90.cgi
 Binary Distributions :existing take and use only
 Source Code Distributions : custemice fuetere to development use
+##################################################################
+## this use for any opereting system
+zip (pgp, sha512)     # 
+tar.gz (pgp, sha512)
+## this three not use only windows 
+32-bit Windows zip (pgp, sha512)
+64-bit Windows zip (pgp, sha512)
+32-bit/64-bit Windows Service Installer (pgp, sha512)
+#############################################
+
+The image you shared provides the directory structure for the Tomcat Server with a focus on essential scripts for managing the server. Here’s an explanation:
+
+Key Directories and Scripts:
+bin/:
+
+sh startup.sh (MAC/Linux): Starts the Tomcat server on UNIX-based systems.
+startup.bat (Windows): Starts the Tomcat server on Windows systems.
+sh shutdown.sh (MAC/Linux): Shuts down the Tomcat server on UNIX-based systems.
+shutdown.bat (Windows): Shuts down the Tomcat server on Windows.
+catalina.sh: Script to start/stop the Tomcat server using the catalina command (for MAC/Linux).
+catalina.bat: Similar to catalina.sh but for Windows systems.
+version.sh/version.bat: Scripts to display the version of the installed Tomcat server.
+conf/: server.xml ,tomacat-users.xml
+-------------------------------------
+lib/: jars files
+----------------
+Stores all the library (JAR) files that Tomcat uses. These are the core libraries required by Tomcat to function.
+logs/: log file is empty , tomcat genetete logfile manager.log, hostmanager.log,catalina.out, localhost.log
+       this is emty ven run it create
+webapps/: 5 default apps are there webapps
+---------------------------------------------
+         we can deply n number of application
+----------------------------------------------
+           The directory where web applications (WAR files) are deployed. Tomcat automatically deploys any WAR file placed in this directory.
+work/:those application are going to deploy
+--------------------------------------------
+Tomcat's working directory where it stores temporary files related to deployed applications. It contains compiled JSP files and serialized sessions.
+temp/: keep some files
+-----------------------
+Used by Tomcat to store temporary files generated at runtime, such as file uploads or temporary data required during processing.
+######################################################################################################################################
 
 
 
