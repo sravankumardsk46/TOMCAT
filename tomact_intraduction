@@ -1,4 +1,21 @@
+      JAVA APPLICATION SERVERS
+-----------------------------------------
 WebSphere Application Server (WAS) → IBM WebSphere Liberty Profile
 WebLogic → BEA → Oracle
 JBoss/WildFly → Redhat → IBM
 Apache Tomcat → Apache Software Foundation
+##########################################################
+TOMACT  :tomacat is open source java based web app server
+Using Tomcat for Enterprise Applications: TOMCAT support only war file, jar and ear not support tocat
+
+MAVEN : maven  is a java baced and build tool
+#############################################################
+go to
+https://tomcat.apache.org/download-90.cgi
+Binary Distributions :existing take and use only
+Source Code Distributions : custemice fuetere to development use
+
+
+
+
+
