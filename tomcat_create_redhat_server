@@ -1,1 +1,59 @@
+uname
+sudo su
+
+cd /opt
+yum install wget -y
+wget -c --header="Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u251-b08/jdk-8u251-linux-x64.rpm
+sudo yum install -y jdk-8u251-linux-x64.rpm
+
+java -version
+333333333333333333333333333
+   java version "1.8.0_251"
+    Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+33333333333333333333333333333333
+javac -version
+yum install wget unzip -y
+##404 ERROR uar lease not currect
+##############################
+    go to tomcat location 
+    select 9 version
+    copy lincloction
+############################
+https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.95/bin/apache-tomcat-9.0.95.zip
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.95/bin/apache-tomcat-9.0.95.zip
+ls 
+unzip apache-tomcat-9.0.95.zip
+ls
+ cd apache-tomcat-9.0.95
+pwd   /opt/apache-tomcat-9.0.95
+ls
+cd logs   empty
+cd lib
+ls
+cd webapps
+ls
+cd orkdir
+cd temp    empty
+####### tomcat start
+cd bin
+ls -l
+chmod u+x *.sh     ### its mean all permition exiqute shell script
+ls -l
+pwd   ## /opt/apache-tomcat-9.0.59/bin   ## copy past down list
+## this for chenge pwd copy past down
+ln -s /opt/apache-tomcat-9.0.59/bin/startup.sh /usr/bin/starttomcat
+ln -s /opt/apache-tomcat-9.0.59/bin/startup.sh /usr/bin/stoptomcat
+
+
+
+
+
+
+
+
+
+ 
+
+
 
