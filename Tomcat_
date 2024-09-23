@@ -124,6 +124,49 @@ thierd 3
 web server can be used to serve the static content
 we will use to implimment ;oad blancer purpose also
 
+yum install httpd -y
+port 80
+srvice start
+
+ip copy pastgoogle
+/var/www/html
+indext.html
+<h1> welcome to </h1>
+<h2> welcome to </h2>
+<h3> welcome to </h3>
+<h4> welcome to </h4>
+wq!
+default indext.html   mithun.html
+custem need 
+http:// 52762521675/mithun.html
+its works
+
+cd webapp
+cd maven-web-application
+cd images
+ls
+mithunlogo.jpg
+cp mithunlogo.jpg /var/www/html
+cd /var/www/html
+ls
+mithunlogo.jpg
+ls -l
+chmod o+r mithunlogo.jpg  this user not root so need permition to read
+http://773627/mithunlogo.jpg
+
+cd /etc/httpd/conf
+ls     httpd.conf magic
+vi httpd.conf
+log file
+port
+all
+wq!
+httpd and nginx same not run becose same port 80 chenge port or stop one app
+
+
+
+
+
 
 
 
