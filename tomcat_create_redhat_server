@@ -98,12 +98,42 @@ VI CONTEX.XML
 go to dashbord check
 ## manager-gui : sever status manager app
  ### admin-gui : host manager
-tasck1
-user1
-manger-gui
-user2
-admin-gui
-#NOTE same port nat
+    tasck1
+    user1
+    manger-gui
+    user2
+     admin-gui
+###########################################################################
+#NOTE same port nat working 8080 need diffarent ten go sent port in tomcat
+      tomcatrunning witch port 8080 so
+      EXAMPLE : timcat/jboss ----> same machin port 8080 two application same 
+      port not working so chenge port number in tamcat
+#############################################################################
+## how to chenge port number in tocat server go to conf directery server.xml
+
+cd conf
+ls 
+vi server.xml
+:se nu     # to serch the line number
+:69 
+<connector port="8080"  ## chenge this port example "9980" it means any
+:wq!
+## 0 ---> 1023 ---> resorved port thats why i given 9980
+ip:9980
+# not working becouce re stsrt server
+cd conf
+stopTomcat
+stsrtTomcat
+# not work so goto port give 9980
+go to give port 9980
+its work
+###########  ok #############
+
+
+
+
+
+
 
 
 
