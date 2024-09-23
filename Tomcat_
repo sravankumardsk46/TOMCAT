@@ -72,12 +72,58 @@ cd webapps
 cp maven-standlone-application.war /tmp/
 ls /tmp/
 maven-standlone-application.war 
+#####################################
+    .war chenge zip in our local laptop
+     jsps: it is ui 
+####################################
 go to tomcat dashbord
 deployment 
 contexpath \mithuntechnoly  # this is http//:1234:9980/mithuntechnology
 directerypath: /tmp/maven-standlone-application.war
 
 tomcatdashbord click newgooglewindow
+tomcat  undeploy= delete from webapp
+# deleted maven-web-application.warcomback
+cp /tmp/maven-web-application.war
+ls
+go to dashbord relode
+RELODE: hot deployment  / hot fixes
+cd webapps
+cd  maven-web-application
+cd jsps
+vi home.jsp
+karnataka .
+:wq!
+relode dsahbord  any update that java must relode 
+frontend noneed but backend relode need
+timeset 5 mints
+
+DIFF B/W APP SERVERS AND WEB SERVERS
+----------------------------------------
+app servers :             webserver :
+----------                ------------                
+war                          html,css,js,images
+
+
+
+apache http server
+nginx {engin x }
+ihs -- ibm http server
+oracle i plane
+
+lodebalencer type
+-------------------------
+round rabin ulgaridam
+revers proxy  
+-----------------------
+frist 5 request\
+second 1
+thierd 3
+
+
+web server can be used to serve the static content
+we will use to implimment ;oad blancer purpose also
+
 
 
 
