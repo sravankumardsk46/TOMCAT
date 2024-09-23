@@ -1,0 +1,95 @@
+rm -f /usr/bin/starttomcat
+# to remove foleders
+connect to sever tomcat
+cd webapps
+ls
+go to tomcat dashbord
+there scroll down options Deploy and war file to deploy
+
+create one ec2 server need maven in server
+that war file coppy to local loptap
+new server connect public ip user and passwed
+connect server linux
+sudo su
+passwd ec2-user   # to set the password in ec2-user
+new paasword:
+retry password :
+#install filezilla saparete local laptop give hoste name 123.456.789
+name: 12345 username:ec2-user password:password port:22
+# it not workservice 
+# to to server possword othentication
+vi /etc/ssh/sshd_config
+passwordauthentication "yes"
+:wq!
+# restart service restart
+service sshd restart
+give port all trafic port
+connected filezilla
+ls
+maven-standlone-application
+pwd   ## root
+go to filezill root type not work permition denaine
+go to server
+cd maven-standlone-application
+cd target
+ls   red maven-standlone-application.war
+ cp maven-standlone-application.war /tmp
+goto filezill 
+remotesite /tmp  # shw u .war file
+that file dragen left it downloded
+go to laptop downlod see file is there
+go to server cd webapps 
+ls
+only five directerys
+then go to tomcat dashbort
+browse select doenlode war local laptop
+"deply" # it go ing downlode to webappdirecter in server
+ls 
+maven-standlone-application.war
+maven-standlone-application
+# both aivaliable or downloded
+cd work   
+ls   catalina
+cd catalina
+ls
+cd localhost
+ls
+maven-standlone-application
+cd webaaps  # this defalt directery webapps
+ls    # jboss default directer deployment
+## tomcat ip
+   http://123.456.6:9980/{{contextpath}}
+   http://123.456.6:9980/maven-standlone-application  # this is contextfile
+go goole new browser
+
+http://123.456.6:9980/maven-standlone-application 
+
+show u sum text what we given war file springpetclinic
+
+#############
+go to server
+cd webapps
+cp maven-standlone-application.war /tmp/
+ls /tmp/
+maven-standlone-application.war 
+go to tomcat dashbord
+deployment 
+contexpath \mithuntechnoly  # this is http//:1234:9980/mithuntechnology
+directerypath: /tmp/maven-standlone-application.war
+
+tomcatdashbord click newgooglewindow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
